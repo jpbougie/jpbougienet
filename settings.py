@@ -72,7 +72,7 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.admin',
     'django.contrib.comments',
-    'django_cpserver'
+    'django_cpserver',
     'tagging',
     'template_utils',
     'blog',
