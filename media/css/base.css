@@ -92,10 +92,9 @@ div.entry div.body {
     width: 40em;
 }
 
-a { text-decoration: none; }
+a { text-decoration: none; color: black; }
 
 div#content p a {
-    color: black;
     background-color: #B3E0F5;
 }
 

@@ -3,8 +3,8 @@
 {% block content %}
     <div class="entry">
         <div class="body">
-            <h2><a href="{{ entry.get_absolute_url }}">{{ entry.headline }}</a></h2>
-            {% firstof entry.body_html %}
+            <h2><a href="{{ object.get_absolute_url }}">{{ object.headline }}</a></h2>
+            {% firstof object.body_html %}
         </div>
     </div>
     
