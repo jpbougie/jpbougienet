@@ -4,7 +4,7 @@
     {% for entry in latest %}
         <div class="entry">
             <div class="body">
-                <h2>{{ entry.headline }}</h2>
+                <h2><a href="{{ entry.get_absolute_url }}">{{ entry.headline }}</a></h2>
                 {% firstof entry.summary_html entry.body_html %}
             </div>
         </div>
