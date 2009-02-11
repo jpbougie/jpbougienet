@@ -14,12 +14,12 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	padding: 0;
 	border: 0;
 	outline: 0;
-	font-size: 100%;
 	vertical-align: baseline;
 	background: transparent;
+	font-weight: normal;
 }
 body {
-	line-height: 1;
+	line-height: 1.4;
 }
 ol, ul {
 	list-style: none;
@@ -56,18 +56,52 @@ table {
 /* = Typography = */
 /* ============== */
 
-body { font-size:100%; }
+body { font-size:16px; }
 h1 { font-size:2.25em;  /* 16x2.25=36 */ }
 h2 { font-size:1.5em;   /* 16x1.5=24 */ }
 h3 { font-size:1.125em; /* 16x1.125=18 */ }
 h4 { font-size:0.875em; /* 16x0.875=14 */ }
-p  { font-size:0.75em;  /* 16x0.75=12 */ }
+p  { font-size:0.875em;  /* 16x0.75=12 */ }
 
-body { font-family: "Georgia", serif;}
+body { font-family:Georgia,"Times New Roman",Times,serif; }
 
 /* ========== */
 /* = Design = */
 /* ========== */
 
-div#head { height: 15em; width: 100%; background: #446494;}
-div#head h1 { color: white; margin: 8em 0 1em 7em;}
+body { background: #F5F5F5;}
+p { padding-bottom: 1em;}
+
+div#head { height: 12em; width: 100%; background: #0D2A4A;}
+div#head h1 a { 
+    position: absolute; 
+    color: #D4ECF6; 
+    margin: 3em 0 0 2.6em; 
+    text-decoration: none;
+    letter-spacing: 0.2em;}
+
+div#content {
+    width: 50em;
+    padding: 2em 0;
+}
+
+div.entry h2 {
+    padding-bottom: 0.3em;
+}
+div.entry div.body {
+    padding: 0 6em;
+    width: 40em;
+}
+
+div#content a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+div#content a:hover {
+    text-decoration: underline;
+}
+/*http://www.colourlovers.com/palette/703330/New_Yorker*/
+em { color: #5CB14C;}
+strong { background-color: #B3E0F5;}
