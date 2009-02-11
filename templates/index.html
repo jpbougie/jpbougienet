@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="entry">
+        <div class="body">
+            <h2>{{ entry.headline }}</h2>
+            {% firstof entry.body_html %}
+        </div>
+    </div>
+    
+    <h2 class="more"><a href="/blog/">More&hellip;</a></h2>
+{% endblock %}

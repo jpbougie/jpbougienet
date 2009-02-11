@@ -82,26 +82,27 @@ div#head h1 a {
 
 div#content {
     width: 50em;
-    padding: 2em 0;
+    padding: 2em 6em;
 }
 
 div.entry h2 {
     padding-bottom: 0.3em;
 }
 div.entry div.body {
-    padding: 0 6em;
     width: 40em;
 }
 
 div#content a {
     color: black;
-    font-weight: bold;
+    background-color: #B3E0F5;
     text-decoration: none;
 }
 
 div#content a:hover {
-    text-decoration: underline;
+    background-color: #F1F1AC;
 }
+
+h2.more { font-style: italic;}
 /*http://www.colourlovers.com/palette/703330/New_Yorker*/
 em { color: #5CB14C;}
-strong { background-color: #B3E0F5;}
+strong { font-weight: bold;}
