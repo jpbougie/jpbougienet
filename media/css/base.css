@@ -92,13 +92,14 @@ div.entry div.body {
     width: 40em;
 }
 
-div#content a {
+a { text-decoration: none; }
+
+div#content p a {
     color: black;
     background-color: #B3E0F5;
-    text-decoration: none;
 }
 
-div#content a:hover {
+div#content p a:hover {
     background-color: #F1F1AC;
 }
 
