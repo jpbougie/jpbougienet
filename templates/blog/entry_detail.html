@@ -17,10 +17,12 @@
         <h3>{% firstof comment_count "No" %} comments so far.</h3>
         {% for comment in comment_list %}
             <div class="comment">
+                <h3 class="details">{{ comment.user_name }} wrote:</h3>
                 {{ comment.comment|markdown }}
             </div>
         {% endfor %}
         
+        <h3>Join the discussion:</h3>
         {% render_comment_form for object %}
     </div>
     <h2 class="nav"><a href="/blog/">Back&hellip;</a></h2>

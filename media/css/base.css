@@ -106,3 +106,13 @@ h2.nav { font-style: italic;}
 /*http://www.colourlovers.com/palette/703330/New_Yorker*/
 em { color: #5CB14C;}
 strong { font-weight: bold;}
+
+div.comment {
+    padding: 0em 0.5em;
+    margin: 0.5em 0.5em;
+    border-left: #E5E5E5 2px solid;
+}
+
+label {
+    display: block;
+}
