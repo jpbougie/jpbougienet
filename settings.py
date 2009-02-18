@@ -79,6 +79,7 @@ INSTALLED_APPS = (
     'tagging',
     'template_utils',
     'blog',
+    'south',
 )
 
 try:
