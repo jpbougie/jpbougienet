@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% load markup %}
+
+{% block content %}
+    <div class="entry">
+        <div class="body">
+            <h2>{{ flatpage.title }}</a></h2>
+            {{ flatpage.content }}
+        </div>
+    </div>
+    
+    <h2 class="nav"><a href="/blog/">Back&hellip;</a></h2>
+{% endblock %}
+
