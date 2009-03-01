@@ -116,3 +116,8 @@ div.comment {
 label {
     display: block;
 }
+
+blockquote {
+    margin: 0 0.5em;
+    color: #727272;
+}
